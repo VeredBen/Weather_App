@@ -1,0 +1,24 @@
+# # Exclude CSV files
+# *.csv
+# data_files/
+# OLD*/
+
+# Exclude API keys and secrets
+*.key
+*.secret
+*.env
+secrets.json
+
+# Exclude other common sensitive files
+# config.json
+credentials.json
+
+# Exclude Python cache files
+__pycache__/
+*.py[cod]
+
+# Exclude environment files
+.env
+.venv/
+env/
+venv/
